@@ -10,6 +10,7 @@ ATRILD intends to replace reference rild written in C and it should provide easi
 Requirements
 ------------
 - Kernel must support ppp (check /proc/devices)
+- Kernel must support 3g dongle serial
 - Tablet must be rooted 
 - /system must be writable (no cramfs etc.)
 
