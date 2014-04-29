@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ATRILD</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="preferences_screen">Preferences Screen</string>
+    <string name="display_shared_preferences">Display Shared Preferences</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="prefs">Prefs</string>
+    <string name="identity">Identity</string>
+    <string name="radio_state">Radio state: </string>
+    <string name="ril_state">RIL state: </string>
+    <string name="install">Install</string>
+    <string name="uninstall">Uninstall</string>
+    
+</resources>

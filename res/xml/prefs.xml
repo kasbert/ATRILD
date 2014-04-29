@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+ <PreferenceCategory
+   android:summary="ATRILD settings"
+   android:title="Settings" >
+  <CheckBoxPreference
+     android:key="enabled"
+     android:summary="On/Off"
+     android:title="Start atrild automatically" />
+  <ListPreference
+     android:entries="@array/listOptions"
+     android:entryValues="@array/listValues"
+     android:key="listpref"
+     android:summary="List preference example"
+     android:title="List preference" />
+ </PreferenceCategory>
+ 
+ <PreferenceCategory
+   android:summary="Modem details"
+   android:title="Modem settings" >
+  <EditTextPreference
+     android:key="fi.dungeon.atrild.ril.ATDevice.DeviceName"
+     android:summary="Path to modem device or auto"
+     android:title="Modem device filename" />
+  <EditTextPreference
+     android:key="fi.dungeon.atrild.ril.PPPDMonitor.DeviceName"
+     android:summary="Path to modem device or auto"
+     android:title="PPP device filename" />
+  <EditTextPreference
+     android:key="fi.dungeon.atrild.ril.ATCommandsImpl.InitializationCommands"
+     android:summary="Modem init commands, precede with - to ignore errors"
+     android:title="Modem initialization AT commands" />
+  </PreferenceCategory>
+ 
+</PreferenceScreen>
